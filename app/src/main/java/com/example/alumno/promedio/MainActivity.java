@@ -33,8 +33,8 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void calcular(View view) {
-        
 
+        tv1.setText("");
         float promedio = (Integer.parseInt(nf1.getText().toString())  +
                           Integer.parseInt(nf2.getText().toString()) +
                           Integer.parseInt(nf3.getText().toString()))
